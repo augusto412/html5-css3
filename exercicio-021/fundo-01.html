@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste de imagens de fundo</title>
+    <style>
+        div.quadrado{
+            border: 2px solid black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+            background-color: lightgray;
+            border-radius: 10px;
+        }
+
+        /*aqui tem uma cor lisa ou chapada*/
+        div#q1{
+            background-color: skyblue;
+        }
+
+        /*aqui tem um degrade de baixo para cima*/
+        div#q2{
+            background-image: linear-gradient(to bottom, yellow, red);
+        }
+
+        /*aqui tem um imagem utilizando url*/
+        div#q3{
+         background-image: url('imagens/palet-pequeno.jpg');   
+        }
+        div#q4{
+            background-image: url('imagens/petterr-01.jpg');
+        }
+        div#q5{
+            background-image: url('imagens/petterr-02.jpg');
+        }
+    </style>
+</head>
+<body>
+    <div class="quadrado" id="q1">
+
+    </div>
+    <div class="quadrado" id="q2">
+
+    </div>
+    <div class="quadrado" id="q3">
+
+    </div>
+    <div class="quadrado" id="q4">
+
+    </div>
+    <div class="quadrado" id="q5">
+
+    </div>
+</body>
+</html>

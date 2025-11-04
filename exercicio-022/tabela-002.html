@@ -18,6 +18,10 @@
             padding: 10px;
         }
 
+        tbody > tr:nth-child(odd){
+            background-color: grey;
+        }
+
         .num{
            text-align: right;
         }
@@ -42,8 +46,8 @@
     <table>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>população</th>
+                <th scope="col">estado</th>
+                <th scope="col">população</th>
             </tr>
         </thead>
 
@@ -60,11 +64,15 @@
                 <td>Rio de Janeiro</td>
                 <td class="num">17 264 943</td>
             </tr>
+            <tr>
+                <td>roraima</td>
+                <td class="num">738 772</td>
+            </tr>
         </tbody>
 
         <tfoot>
             <tr>
-                <th>total de habitantes </th>
+                <th scope="row">total de habitantes </th>
                 <td class="num"><strong>84 698 789</strong></td>
             </tr>
         </tfoot>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divs flexiveis internas</title>
+    <style>
+
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container{
+            background-color: grey;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            height: 150px;
+        }
+
+        #ilogo{
+            display: flex;
+            flex: 1;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .logo{
+            padding: 20px;
+        }
+        
+        #imenu{
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="ilogo">
+            <div class="logo">
+                <p>Minha Logo</p>
+            </div>
+        </div>
+        <div id="imenu">
+            <div class="logo">HOME</div>
+            <div class="logo">SOBRE</div>
+            <div class="logo">LOJA</div>
+            <div class="logo">FOTOS</div>
+            <div class="logo">CONTATO</div>
+        </div>
+    </div>
+</body>
+</html>

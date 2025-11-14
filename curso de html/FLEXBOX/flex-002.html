@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tamanhos e alinhamento</title>
+<style>
+    .todos{
+            display: flex;
+            flex-direction: row;
+            background-color: grey;
+            justify-content: center;
+    }
+    #itens{
+        padding: 20px;
+        margin: 10px;
+        background-color: darkred;
+        color: white;
+        text-align: center;
+    }
+
+    .container{
+        background-color: green;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        height: 600px;
+    }
+
+    #bloco{
+        background-color: violet;
+        padding: 20px;
+        margin: 10px;
+        border: 1px solid black;
+        color: white;
+    }
+</style>
+</head>
+<body>
+        <div class="todos">
+        <div id="itens">1</div>
+        <div id="itens">2</div>
+        <div id="itens">3</div>
+        <div id="itens">4</div>
+    </div>
+
+        <br>
+
+    <div class="container">
+        <div id="bloco">1</div>
+        <div id="bloco">2</div>
+        <div id="bloco">3</div>
+        <div id="bloco">4</div>
+        <div id="bloco">5</div>
+
+    </div>
+</body>
+</html>

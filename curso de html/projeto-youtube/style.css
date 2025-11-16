@@ -1,18 +1,17 @@
 @charset "UTF_8";
 *{
     margin: 0px;
-    padding: 0px;   
+    padding: 0px;
 }
  body{
     background-color: #0d0d0d;
  }
 
- nav{
+ .topo{
     width: 100vw;
     display: flex;
     height: 56px;
     background-color: #181818;
-    border-radius: 15px 15px 0px 0px;
  }
 
 .icon{
@@ -26,7 +25,7 @@
     display: flex;
     width: 24px;
     height: 24px;
-    margin-left: 15px ;
+    margin-left: 30px ;
 }
 
 .img-2{
@@ -75,4 +74,58 @@
 .container-02{
     display: flex;
     flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 34px;
 }
+
+.icone{
+    height: 30px;
+    width: 30px;
+}
+
+.avatar{
+    margin: 10px 0px 0px 5px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background-color: #912df5;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    display: flex;
+    gap: 32px;
+}
+
+.botao-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: ;
+    align-items: center;
+    width: 88px;
+    height: 309px;
+
+}
+
+.b1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 88px;
+    height: 309px;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    background-color: #912df5 ;
+}
+

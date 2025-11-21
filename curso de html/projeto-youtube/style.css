@@ -106,7 +106,7 @@ nav{
 .botao-menu{
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    justify-content:flex-start;
     align-items: center;
     width: 88px;
     height: 309px;
